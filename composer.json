@@ -1,0 +1,41 @@
+{
+  "name": "mickaelperrin/acf-pro",
+  "description": "ACF PRO",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "acf"
+  ],
+  "type": "wordpress-plugin",
+  "homepage": "https://www.advancedcustomfields.com/",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Elliot Condon",
+      "homepage": "http://www.elliotcondon.com"
+    }
+  ],
+  "support": {
+    "forum": "https://support.advancedcustomfields.com/",
+    "documentation": "https://www.advancedcustomfields.com/resources/"
+  },
+  "require": {
+    "php": ">=5.3.2",
+    "philippbaschke/acf-pro-installer": "^1.0",
+    "advanced-custom-fields/advanced-custom-fields-pro": "5.6.0",
+    "composer/installers": "^1.0"
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "advanced-custom-fields/advanced-custom-fields-pro",
+        "version": "5.6.0",
+        "dist": {
+          "url": "https://connect.advancedcustomfields.com/index.php?p=pro&a=download",
+          "type": "zip"
+        }
+      }
+    }
+  ]
+}
